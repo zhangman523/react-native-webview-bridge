@@ -1,15 +1,15 @@
 package com.github.alinz.reactnativewebviewbridge;
 
+import android.content.Intent;
+import android.net.Uri;
+import android.webkit.DownloadListener;
 import android.webkit.WebView;
-
+import com.facebook.react.bridge.ReactContext;
 import com.facebook.react.bridge.ReadableArray;
 import com.facebook.react.uimanager.ThemedReactContext;
-import com.facebook.react.views.webview.ReactWebViewManager;
 import com.facebook.react.uimanager.annotations.ReactProp;
-
-import java.util.ArrayList;
+import com.facebook.react.views.webview.ReactWebViewManager;
 import java.util.Map;
-
 import javax.annotation.Nullable;
 
 public class WebViewBridgeManager extends ReactWebViewManager {
